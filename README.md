@@ -66,6 +66,14 @@ void delete_table(table_t *table);
 
 Perform analysis from single-fasta file to a multi-fasta file
 
+Usage:
+
+`./smain <K> <bacteria_file> <virus_file> [ <output_file> ]`
+
 #### mmain
 
 Perform analysis from multi-fasta file to another multi-fasta file
+
+Usage:
+
+`./mmain <K> <bacteria_file> <virus_file> [ <output_file> ]`
